@@ -63,10 +63,11 @@ p {
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 8.4375rem;
-    height: 8.4375rem;
-    margin-top: -1.875rem;
+    margin-top: -2.5rem;
+    width: 3.75rem;
+    height: 3.75rem;
     background-image: url(../img/play-button.svg);
+    background-size: cover;
     background-color: #F48351;
     border-radius: 50%;
     -webkit-box-shadow: 0 15px 20px rgba(38, 36, 37, 0.3);
@@ -75,6 +76,19 @@ p {
     transition: background-color 250ms, -webkit-transform 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition: background-color 250ms, transform 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition: background-color 250ms, transform 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+    @media screen and (min-width: 25em) {
+      .video::before {
+        width: 5rem;
+        height: 5rem; } }
+    @media print, screen and (min-width: 40em) {
+      .video::before {
+        width: 6.25rem;
+        height: 6.25rem; } }
+    @media print, screen and (min-width: 62.0625em) {
+      .video::before {
+        margin-top: -1.875rem;
+        width: 8.4375rem;
+        height: 8.4375rem; } }
   .video::after {
     bottom: 0.5625rem;
     width: 0.8125rem;
@@ -100,14 +114,21 @@ p {
   right: 0;
   top: 0;
   bottom: 0;
-  padding-top: 16.25rem; }
+  padding-top: 32%; }
+  @media screen and (min-width: 25em) {
+    .video__text {
+      padding-top: 38%; } }
 
 .video__link {
+  display: block;
   color: #fff;
   text-align: center;
-  font-size: 2.375rem;
+  font-size: 1.5rem;
   letter-spacing: 0.38px;
   font-family: 'PF Din Display Pro Bold', sans-serif; }
+  @media print, screen and (min-width: 40em) {
+    .video__link {
+      font-size: 2.375rem; } }
   .video__link::before {
     content: '';
     position: absolute;
@@ -118,8 +139,11 @@ p {
 
 .video__description {
   color: #fcfcfc;
-  font-size: 1.0625rem;
+  font-size: 0.9375rem;
   letter-spacing: 0.85px; }
+  @media print, screen and (min-width: 40em) {
+    .video__description {
+      font-size: 1.0625rem; } }
 
 .video-holder {
   position: relative;

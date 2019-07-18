@@ -18,10 +18,24 @@
     &::before {
         top: 50%;
         transform: translate(-50%, -50%);
-        width: rem-calc(135);
-        height: rem-calc(135);
-        margin-top: rem-calc(-30);
+        margin-top: rem-calc(-40);
+        width: rem-calc(60);
+        height: rem-calc(60);
+        @include breakpoint(400px) {
+            width: rem-calc(80);
+            height: rem-calc(80);
+        }
+        @include breakpoint(medium) {
+            width: rem-calc(100);
+            height: rem-calc(100);
+        }
+        @include breakpoint(large) {
+            margin-top: rem-calc(-30);
+            width: rem-calc(135);
+            height: rem-calc(135);
+        }
         background-image: url(../img/play-button.svg);
+        background-size: cover;
         background-color: #F48351;
         border-radius: 50%;
         box-shadow: 0 15px 20px rgba(38, 36, 37, 0.3);
@@ -60,12 +74,19 @@
     right: 0;
     top: 0;
     bottom: 0;
-    padding-top: rem-calc(260);
+    padding-top: 32%;
+    @include breakpoint(400px) {
+        padding-top: 38%;
+    }
 }
 .video__link {
+    display: block;
     color: #fff;
     text-align: center;
-    font-size: rem-calc(38);
+    font-size: rem-calc(24);
+    @include breakpoint(medium) {
+        font-size: rem-calc(38);
+    }
     letter-spacing: 0.38px;
     font-family: 'PF Din Display Pro Bold', sans-serif;
 
@@ -81,7 +102,10 @@
 }
 .video__description {
     color: #fcfcfc;
-    font-size: rem-calc(17);
+    font-size: rem-calc(15);
+    @include breakpoint(medium) {
+        font-size: rem-calc(17);
+    }
     letter-spacing: 0.85px;
 }
 
