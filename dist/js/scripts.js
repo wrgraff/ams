@@ -1,3 +1,22 @@
+(function() {
+    var throttle = function(type, name, obj) {
+        obj = obj || window;
+        var running = false;
+        var func = function() {
+            if (running) { return; }
+            running = true;
+             requestAnimationFrame(function() {
+                obj.dispatchEvent(new CustomEvent(name));
+                running = false;
+            });
+        };
+        obj.addEventListener(type, func);
+    };
+    /* init - you can init any event */
+    throttle("resize", "optimizedResize");
+})();
+
+
 !function(e,o){"object"==typeof exports&&"undefined"!=typeof module?module.exports=o():"function"==typeof define&&define.amd?define(o):e.MicroModal=o()}(this,function(){"use strict"
 var e=function(e,o){if(!(e instanceof o))throw new TypeError("Cannot call a class as a function")},o=function(){function e(e,o){for(var t=0;t<o.length;t++){var i=o[t]
 i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(o,t,i){return t&&e(o.prototype,t),i&&e(o,i),o}}(),t=function(e){if(Array.isArray(e)){for(var o=0,t=Array(e.length);o<e.length;o++)t[o]=e[o]
@@ -111,4 +130,21 @@ function articlesToggler() {
 }
 
 articlesToggler();
+
+function headerPadding() {
+    let header = document.querySelector('.navbar');
+    let main = document.querySelector('.main');
+
+    main.style.paddingTop = headerHeight(header) + 'px';
+
+    window.addEventListener("optimizedResize", function() {
+        main.style.paddingTop = headerHeight(header) + 'px';
+    });
+}
+
+function headerHeight(header) {
+    return header.clientHeight;
+}
+
+headerPadding();
 
