@@ -108,128 +108,132 @@
         </section>
 
         <section class="articles">
-            <div class="srticles__section">
-                <div class="articles__ico">
-                    <img src="img/ico/speed.svg" alt="Работа с ускорителем компьютера" />
-                </div>
-                <h4 class="articles__title">Работа с ускорителем компьютера</h4>
-                <ul class="articles__list">
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Однажды одна маленькая строчка рыбного текста</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">По имени Lorem ipsum решила выйти</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Великий Оксмокс предупреждал ее о злых запятых</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Диких знаках вопроса и коварных точках с запятой</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Далеко-далеко за словесными горами в стране</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">В стране гласных и согласных живут рыбные тексты</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
-                    </li>
-                </ul>
-                <button type="button" class="articles__button">Больше статей</button>
-            </div>
+            <div class="container">
+                <div class="articles__sections">
+                    <div class="articles__section">
+                        <div class="articles__ico">
+                            <img src="img/ico/speed.svg" alt="Работа с ускорителем компьютера" />
+                        </div>
+                        <h4 class="articles__title">Работа с ускорителем компьютера</h4>
+                        <ul class="articles__list">
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Однажды одна маленькая строчка рыбного текста</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">По имени Lorem ipsum решила выйти</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Великий Оксмокс предупреждал ее о злых запятых</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Диких знаках вопроса и коварных точках с запятой</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Далеко-далеко за словесными горами в стране</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">В стране гласных и согласных живут рыбные тексты</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="articles__button">Больше статей</button>
+                    </div>
 
-            <div class="srticles__section">
-                <div class="articles__ico">
-                    <img src="img/ico/secret.svg" alt="Секреты оптимизации ОС Windows" />
-                </div>
-                <h4 class="articles__title">Секреты оптимизации ОС Windows</h4>
-                <ul class="articles__list">
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Далеко-далеко за словесными горами в стране</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">В стране гласных и согласных живут рыбные тексты</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">На берегу Семантика большого языкового океана</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">В стране гласных и согласных живут рыбные тексты</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">На берегу Семантика большого языкового океана</a>
-                    </li>
-                </ul>
-                <button type="button" class="articles__button">Больше статей</button>
-            </div>
+                    <div class="articles__section">
+                        <div class="articles__ico">
+                            <img src="img/ico/secret.svg" alt="Секреты оптимизации ОС Windows" />
+                        </div>
+                        <h4 class="articles__title">Секреты оптимизации ОС Windows</h4>
+                        <ul class="articles__list">
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Далеко-далеко за словесными горами в стране</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">В стране гласных и согласных живут рыбные тексты</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">На берегу Семантика большого языкового океана</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">В стране гласных и согласных живут рыбные тексты</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">На берегу Семантика большого языкового океана</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="articles__button">Больше статей</button>
+                    </div>
 
-            <div class="srticles__section">
-                <div class="articles__ico">
-                    <img src="img/ico/secure.svg" alt="Как ускорить работу ПК: лайфхаки" />
-                </div>
-                <h4 class="articles__title">Как ускорить работу ПК: лайфхаки</h4>
-                <ul class="articles__list">
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Далеко-далеко за словесными горами в стране</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">В стране гласных и согласных живут рыбные тексты</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">На берегу Семантика большого языкового океана</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Далеко-далеко за словесными горами в стране</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">В стране гласных и согласных живут рыбные тексты</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
-                    </li>
-                </ul>
-                <button type="button" class="articles__button">Больше статей</button>
-            </div>
+                    <div class="articles__section">
+                        <div class="articles__ico">
+                            <img src="img/ico/secure.svg" alt="Как ускорить работу ПК: лайфхаки" />
+                        </div>
+                        <h4 class="articles__title">Как ускорить работу ПК: лайфхаки</h4>
+                        <ul class="articles__list">
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Далеко-далеко за словесными горами в стране</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">В стране гласных и согласных живут рыбные тексты</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">На берегу Семантика большого языкового океана</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Далеко-далеко за словесными горами в стране</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">В стране гласных и согласных живут рыбные тексты</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="articles__button">Больше статей</button>
+                    </div>
 
-            <div class="srticles__section">
-                <div class="articles__ico">
-                    <img src="img/ico/bugs.svg" alt="Устранение ошибок ОС Windows" />
+                    <div class="articles__section">
+                        <div class="articles__ico">
+                            <img src="img/ico/bugs.svg" alt="Устранение ошибок ОС Windows" />
+                        </div>
+                        <h4 class="articles__title">Устранение ошибок ОС Windows</h4>
+                        <ul class="articles__list">
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Однажды одна маленькая строчка рыбного текста</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">По имени Lorem ipsum решила выйти</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Великий Оксмокс предупреждал ее о злых запятых</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Диких знаках вопроса и коварных точках с запятой</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">В стране гласных и согласных живут рыбные тексты</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
+                            </li>
+                            <li class="articles__item">
+                                <a href="#" class="articles__link">На берегу Семантика большого языкового океана</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="articles__button">Больше статей</button>
+                    </div>
                 </div>
-                <h4 class="articles__title">Устранение ошибок ОС Windows</h4>
-                <ul class="articles__list">
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Однажды одна маленькая строчка рыбного текста</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">По имени Lorem ipsum решила выйти</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Великий Оксмокс предупреждал ее о злых запятых</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Диких знаках вопроса и коварных точках с запятой</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">В стране гласных и согласных живут рыбные тексты</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
-                    </li>
-                    <li class="articles__item">
-                        <a href="#" class="articles__link">На берегу Семантика большого языкового океана</a>
-                    </li>
-                </ul>
-                <button type="button" class="articles__button">Больше статей</button>
             </div>
         </section>
     </main>

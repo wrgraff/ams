@@ -1,0 +1,114 @@
+.articles {
+    margin-bottom: $bit * 8;
+    text-align: left;
+    overflow: hidden;
+}
+
+.articles__sections {
+    display: flex;
+    flex-wrap: wrap;
+    margin: rem-calc(0 -70);
+}
+
+.articles__section {
+    position: relative;
+    flex-basis: 100%;
+    @include breakpoint(large) {
+        flex-basis: 50%;
+    }
+    padding: rem-calc(0 70 50);
+
+    @include breakpoint(large) {
+        &:nth-child(2n - 1) {
+            &::after {
+                content: '';
+                position: absolute;
+                right: -1px;
+                top: 0;
+                bottom: 0;
+                width: 2px;
+                background-color: #e4e8ed;
+            }
+        }
+        &:nth-child(1) {
+            &::after {
+                top: rem-calc(116);
+            }
+        }
+        &:nth-last-child(1),
+        &:nth-last-child(2) {
+            &::after {
+                bottom: rem-calc(140);
+            }
+        }
+    }
+}
+
+.articles__ico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: rem-calc(74);
+    height: rem-calc(74);
+    margin-left: rem-calc(-5);
+    margin-bottom: rem-calc(40);
+    background-color: #e6edf5;
+    border-radius: 50%;
+}
+
+.articles__title {
+    margin-bottom: $bit * 3;
+    color: #364a59;
+    font-family: "PF Din Display Pro Bold";
+    font-size: rem-calc(20);
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.articles__list {
+    margin-bottom: rem-calc(50);
+}
+
+.articles__item {
+    margin-bottom: rem-calc(16);
+    font-size: rem-calc(19);
+}
+
+.articles__link {
+    color: #3471c7;
+    border-bottom: 1px solid;
+    transition: color 250ms;
+
+    &:hover {
+        color: #f5743d;
+    }
+}
+
+.articles__button {
+    position: relative;
+    padding: rem-calc(14 36 12 17);
+    color: #516685;
+    background-color: #e6edf5;
+    border: none;
+    border-radius: 4px;
+    font-family: "PF Din Display Pro Regular";
+    line-height: 1;
+    cursor: pointer;
+    transition: background-color 250ms;
+
+    &:hover {
+        background-color: #d9e2ef;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: rem-calc(14);
+        top: 50%;
+        transform: translateY(-50%);
+        display: block;
+        width: rem-calc(11);
+        height: rem-calc(16);
+        background-image: url(../img/ico/chevron_down.svg);
+    }
+}
