@@ -270,8 +270,12 @@ p {
   margin-bottom: 3.125rem; }
 
 .articles__item {
+  display: none;
   margin-bottom: 1rem;
   font-size: 1.1875rem; }
+  .articles__item:nth-child(1), .articles__item:nth-child(2), .articles__item:nth-child(3), .articles__item:nth-child(4),
+  .articles__list_active .articles__item {
+    display: block; }
 
 .articles__link {
   color: #3471c7;
@@ -291,6 +295,7 @@ p {
   font-family: "PF Din Display Pro Regular";
   line-height: 1;
   cursor: pointer;
+  overflow: hidden;
   -webkit-transition: background-color 250ms;
   transition: background-color 250ms; }
   .articles__button:hover {
@@ -305,7 +310,43 @@ p {
     display: block;
     width: 0.6875rem;
     height: 1rem;
-    background-image: url(../img/ico/chevron_down.svg); }
+    background-image: url(../img/ico/chevron_down.svg);
+    -webkit-transition: -webkit-transform 250ms;
+    transition: -webkit-transform 250ms;
+    transition: transform 250ms;
+    transition: transform 250ms, -webkit-transform 250ms; }
+
+.articles__button_active {
+  color: #616466;
+  background-color: #f6e9c7; }
+  .articles__button_active::after {
+    -webkit-transform: translateY(-50%) scaleY(-1);
+    transform: translateY(-50%) scaleY(-1);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
+  .articles__button_active:hover {
+    background-color: #f2c970; }
+
+.articles__button-text {
+  display: inline-block;
+  -webkit-transition: -webkit-transform 250ms;
+  transition: -webkit-transform 250ms;
+  transition: transform 250ms;
+  transition: transform 250ms, -webkit-transform 250ms; }
+  .articles__button-text:last-child {
+    position: absolute;
+    left: 1.0625rem;
+    right: 2.25rem;
+    top: 50%;
+    text-align: center;
+    -webkit-transform: translateY(150%);
+    transform: translateY(150%); }
+  .articles__button_active .articles__button-text:first-child {
+    -webkit-transform: translateY(-200%);
+    transform: translateY(-200%); }
+  .articles__button_active .articles__button-text:last-child {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
 
 .modal {
   display: none; }

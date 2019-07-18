@@ -70,8 +70,17 @@
 }
 
 .articles__item {
+    display: none;
     margin-bottom: rem-calc(16);
     font-size: rem-calc(19);
+
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4),
+    .articles__list_active & {
+        display: block;
+    }
 }
 
 .articles__link {
@@ -94,6 +103,7 @@
     font-family: "PF Din Display Pro Regular";
     line-height: 1;
     cursor: pointer;
+    overflow: hidden;
     transition: background-color 250ms;
 
     &:hover {
@@ -110,5 +120,40 @@
         width: rem-calc(11);
         height: rem-calc(16);
         background-image: url(../img/ico/chevron_down.svg);
+        transition: transform 250ms;
+    }
+}
+.articles__button_active {
+    color: #616466;
+    background-color: #f6e9c7;
+
+    &::after {
+        transform: translateY(-50%) scaleY(-1);
+        filter: grayscale(100%);
+    }
+
+    &:hover {
+        background-color: #f2c970;
+    }
+}
+
+.articles__button-text {
+    display: inline-block;
+    transition: transform 250ms;
+
+    &:last-child {
+        position: absolute;
+        left: rem-calc(17);
+        right: rem-calc(36);
+        top: 50%;
+        text-align: center;
+        transform: translateY(150%);
+    }
+
+    .articles__button_active &:first-child {
+        transform: translateY(-200%);
+    }
+    .articles__button_active &:last-child {
+        transform: translateY(-50%);
     }
 }

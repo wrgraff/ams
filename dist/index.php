@@ -142,7 +142,10 @@
                                 <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
                             </li>
                         </ul>
-                        <button type="button" class="articles__button">Больше статей</button>
+                        <button type="button" class="articles__button">
+                            <span class="articles__button-text">Больше статей</span>
+                            <span class="articles__button-text">Уменьшить</span>
+                        </button>
                     </div>
 
                     <div class="articles__section">
@@ -173,7 +176,10 @@
                                 <a href="#" class="articles__link">На берегу Семантика большого языкового океана</a>
                             </li>
                         </ul>
-                        <button type="button" class="articles__button">Больше статей</button>
+                        <button type="button" class="articles__button">
+                            <span class="articles__button-text">Больше статей</span>
+                            <span class="articles__button-text">Уменьшить</span>
+                        </button>
                     </div>
 
                     <div class="articles__section">
@@ -204,7 +210,10 @@
                                 <a href="#" class="articles__link">Вдали от всех живут они в буквенных домах</a>
                             </li>
                         </ul>
-                        <button type="button" class="articles__button">Больше статей</button>
+                        <button type="button" class="articles__button">
+                            <span class="articles__button-text">Больше статей</span>
+                            <span class="articles__button-text">Уменьшить</span>
+                        </button>
                     </div>
 
                     <div class="articles__section">
@@ -235,7 +244,10 @@
                                 <a href="#" class="articles__link">На берегу Семантика большого языкового океана</a>
                             </li>
                         </ul>
-                        <button type="button" class="articles__button">Больше статей</button>
+                        <button type="button" class="articles__button">
+                            <span class="articles__button-text">Больше статей</span>
+                            <span class="articles__button-text">Уменьшить</span>
+                        </button>
                     </div>
                 </div>
             </div>
