@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="135px" viewBox="0 0 135 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>play-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="play-button">
+            <path d="M132.821076,84.5771986 L47,33 L47,102 L92.3837196,130.265299 C112.178503,122.410869 127.375905,105.463219 132.821076,84.5771986 Z" id="Combined-Shape" fill-opacity="0.170000002" fill="#000000" style="mix-blend-mode: multiply;"></path>
+            <polygon id="Path-2" fill="#FAFAFA" points="47 33 104.5 67.5 47 102"></polygon>
+        </g>
+    </g>
+</svg>

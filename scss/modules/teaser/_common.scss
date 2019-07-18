@@ -1,3 +1,22 @@
 .teaser {
+    margin-bottom: $bit * 7;
+    padding-top: rem-calc(56);
+    color: color(black);
     background-image: url(../img/teaser-bg.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    line-height: rem-calc(31);
+}
+
+.teaser__title {
+    color: #1f2a33;
+}
+.teaser__text {
+    color: #486175;
+    font-size: rem-calc(20);
+    max-width: rem-calc(740);
+    margin: 0 auto;
+}
+.teaser__video {
+
 }
