@@ -1,0 +1,13 @@
+.content {
+    margin-bottom: $bit * 8;
+}
+
+.content__title {
+    color: #1f2a33;
+}
+
+.content__text {
+    color: #616466;
+    font-size: rem-calc(19);
+    line-height: rem-calc(32);
+}

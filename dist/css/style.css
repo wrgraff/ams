@@ -120,3 +120,73 @@ p {
   color: #fcfcfc;
   font-size: 1.0625rem;
   letter-spacing: 0.85px; }
+
+.content {
+  margin-bottom: 4rem; }
+
+.content__title {
+  color: #1f2a33; }
+
+.content__text {
+  color: #616466;
+  font-size: 1.1875rem;
+  line-height: 2rem; }
+
+.promo-articles {
+  text-align: left; }
+
+.promo-articles__title {
+  margin-bottom: 1.875rem; }
+
+.promo-articles__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 -0.625rem; }
+
+.promo-articles__item {
+  position: relative;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  margin-bottom: 1.875rem;
+  padding: 0 0.625rem; }
+  @media print, screen and (min-width: 40em) {
+    .promo-articles__item {
+      -ms-flex-preferred-size: 33.3333%;
+      flex-basis: 33.3333%; } }
+  @media print, screen and (min-width: 62em) {
+    .promo-articles__item {
+      -ms-flex-preferred-size: 25%;
+      flex-basis: 25%; } }
+
+.promo-articles__img {
+  margin-bottom: 1.125rem;
+  -webkit-box-shadow: 0 2px 6px rgba(36, 34, 34, 0.08);
+  box-shadow: 0 2px 6px rgba(36, 34, 34, 0.08); }
+  .promo-articles__img img {
+    display: block;
+    width: 100%; }
+
+.promo-articles__link {
+  color: #364a59;
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
+  border-bottom: 1px solid transparent;
+  font-family: 'PF Din Display Pro Regular';
+  -webkit-transition: color 250ms, border-color 250ms;
+  transition: color 250ms, border-color 250ms; }
+  .promo-articles__link:hover {
+    color: #4b7dc4;
+    border-color: #4b7dc4; }
+  .promo-articles__link::before {
+    content: '';
+    position: absolute;
+    left: 0.625rem;
+    right: 0.625rem;
+    top: 0;
+    bottom: 0; }

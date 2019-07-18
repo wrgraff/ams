@@ -32,71 +32,79 @@
 
         <section class="content">
             <div class="container">
-                <h2>Изучаем программу</h2>
-                <p>Мы подготовили для вас подборку полезных видеоуроков о работе в "Ускоритель компютера". В них наглядно показаны основные функции программы, а также даны практические рекомендации по обработке и печати фотографий. Просматривая ролики, вы сможете освоить редактор как минимум в два раза быстрее!</p>
+                <div class="content__title">
+                    <h2>Изучаем программу</h2>
+                </div>
+                <div class="content__text">
+                    <p>Мы подготовили для вас подборку полезных видеоуроков о работе в "Ускоритель компютера". В них наглядно показаны основные функции программы, а также даны практические рекомендации по обработке и печати фотографий. Просматривая ролики, вы сможете освоить редактор как минимум в два раза быстрее!</p>
+                </div>
             </div>
         </section>
 
         <section class="promo-articles">
-            <h3>Выбор пользователей</h3>
+            <div class="container">
+                <div class="promo-articles__title">
+                    <h3>Выбор пользователей</h3>
+                </div>
 
-            <ul class="promo-articles__list">
-                <li class="promo-articles__item">
-                    <div class="promo-articles__img">
-                        <img src="img/articles/defragmentation.jpg" alt="Дефрагментация жесткого диска: все типовые вопросы" />
-                    </div>
-                    <a href="#" class="promo-articles__link">Дефрагментация жесткого диска: все типовые вопросы</a>
-                </li>
+                <ul class="promo-articles__list">
+                    <li class="promo-articles__item">
+                        <div class="promo-articles__img">
+                            <img src="img/articles/defragmentation.jpg" alt="Дефрагментация жесткого диска: все типовые вопросы" />
+                        </div>
+                        <a href="#" class="promo-articles__link">Дефрагментация жесткого диска: все типовые вопросы</a>
+                    </li>
 
-                <li class="promo-articles__item">
-                    <div class="promo-articles__img">
-                        <img src="img/articles/speed.jpg" alt="Ускорение компьютера ОСWindows: топ 10 программ" />
-                    </div>
-                    <a href="#" class="promo-articles__link">Ускорение компьютера ОСWindows: топ 10 программ</a>
-                </li>
+                    <li class="promo-articles__item">
+                        <div class="promo-articles__img">
+                            <img src="img/articles/speed.jpg" alt="Ускорение компьютера ОСWindows: топ 10 программ" />
+                        </div>
+                        <a href="#" class="promo-articles__link">Ускорение компьютера ОСWindows: топ 10 программ</a>
+                    </li>
 
-                <li class="promo-articles__item">
-                    <div class="promo-articles__img">
-                        <img src="img/articles/ram.jpg" alt="Что такое оперативная память и для чего она нужна" />
-                    </div>
-                    <a href="#" class="promo-articles__link">Что такое оперативная память и для чего она нужна</a>
-                </li>
+                    <li class="promo-articles__item">
+                        <div class="promo-articles__img">
+                            <img src="img/articles/ram.jpg" alt="Что такое оперативная память и для чего она нужна" />
+                        </div>
+                        <a href="#" class="promo-articles__link">Что такое оперативная память и для чего она нужна</a>
+                    </li>
 
-                <li class="promo-articles__item">
-                    <div class="promo-articles__img">
-                        <img src="img/articles/delete.jpg" alt="Как удалить папку или файл, если они не удаляются" />
-                    </div>
-                    <a href="#" class="promo-articles__link">Как удалить папку или файл, если они не удаляются</a>
-                </li>
+                    <li class="promo-articles__item">
+                        <div class="promo-articles__img">
+                            <img src="img/articles/delete.jpg" alt="Как удалить папку или файл, если они не удаляются" />
+                        </div>
+                        <a href="#" class="promo-articles__link">Как удалить папку или файл, если они не удаляются</a>
+                    </li>
 
-                <li class="promo-articles__item">
-                    <div class="promo-articles__img">
-                        <img src="img/articles/cookie.jpg" alt="Что такое файлы cookie, все что нужно знать" />
-                    </div>
-                    <a href="#" class="promo-articles__link">Что такое файлы cookie, все что нужно знать</a>
-                </li>
+                    <li class="promo-articles__item">
+                        <div class="promo-articles__img">
+                            <img src="img/articles/cookie.jpg" alt="Что такое файлы cookie, все что нужно знать" />
+                        </div>
+                        <a href="#" class="promo-articles__link">Что такое файлы cookie, все что нужно знать</a>
+                    </li>
 
-                <li class="promo-articles__item">
-                    <div class="promo-articles__img">
-                        <img src="img/articles/observer.jpg" alt="Как отключить слежку в интернет браузере Mozilla" />
-                    </div>
-                    <a href="#" class="promo-articles__link">Как отключить слежку в интернет браузере Mozilla</a>
-                </li>
+                    <li class="promo-articles__item">
+                        <div class="promo-articles__img">
+                            <img src="img/articles/observer.jpg" alt="Как отключить слежку в интернет браузере Mozilla" />
+                        </div>
+                        <a href="#" class="promo-articles__link">Как отключить слежку в интернет браузере Mozilla</a>
+                    </li>
 
-                <li class="promo-articles__item">
-                    <div class="promo-articles__img">
-                        <img src="img/articles/windows.jpg" alt="Оптимизация ОС Windows 10: полезные лайфхаки" />
-                    </div>
-                    <a href="#" class="promo-articles__link">Оптимизация ОС Windows 10: полезные лайфхаки</a>
-                </li>
+                    <li class="promo-articles__item">
+                        <div class="promo-articles__img">
+                            <img src="img/articles/windows.jpg" alt="Оптимизация ОС Windows 10: полезные лайфхаки" />
+                        </div>
+                        <a href="#" class="promo-articles__link">Оптимизация ОС Windows 10: полезные лайфхаки</a>
+                    </li>
 
-                <li class="promo-articles__item">
-                    <div class="promo-articles__img">
-                        <img src="img/articles/rating.jpg" alt="Как удалить папку или файл, если они не удаляются" />
-                    </div>
-                    <a href="#" class="promo-articles__link">Как удалить папку или файл, если они не удаляются</a>
-                </li>
-            </ul>
+                    <li class="promo-articles__item">
+                        <div class="promo-articles__img">
+                            <img src="img/articles/rating.jpg" alt="Как удалить папку или файл, если они не удаляются" />
+                        </div>
+                        <a href="#" class="promo-articles__link">Как удалить папку или файл, если они не удаляются</a>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <section class="articles">
