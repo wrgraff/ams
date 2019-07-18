@@ -27,4 +27,8 @@ p {
   border: 0; }
 
 .main {
-  padding-top: 25rem; }
+  padding-top: 10rem;
+  background-color: #fcfcfc; }
+
+.teaser {
+  background-image: url(../img/teaser-bg.jpg); }
