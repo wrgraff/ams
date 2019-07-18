@@ -1,4 +1,3 @@
-// Site utils
-//=require utils/add-element.js
-
-// Site apps
+//=require app/micromodal.min.js
+//=require app/video.js
+//=require app/articlesToggler.js

@@ -1,0 +1,70 @@
+.modal {
+    display: none;
+
+    &.is-open {
+        display: block;
+    }
+}
+
+.modal__overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: $bit * 5;
+    background-color: rgba(color(black), .5);
+    z-index: 50;
+}
+
+.modal__container {
+    position: relative;
+    width: 100%;
+    max-width: rem-calc(800);
+    background-color: color(white);
+    box-shadow: shadow(3-lvl);
+}
+
+.modal__close {
+    position: absolute;
+    right: rem-calc(40);
+    top: rem-calc(40);
+    width: rem-calc(64);
+    height: rem-calc(64);
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 250ms;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        display: block;
+        width: rem-calc(40);
+        height: rem-calc(4);
+        background-color: #fff;
+        transform: translate(-50%, -50%) rotate(45deg);
+        transition: background-color 250ms;
+    }
+    &::after {
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    &:focus {
+        outline: none;
+        background-color: rgba(#000, .15);
+    }
+    &:hover {
+        &::before,
+        &::after {
+            background-color: #f05634;
+        }
+    }
+}

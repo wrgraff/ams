@@ -3,6 +3,10 @@
 <head>
     <?include('includes/_head-includes.php');?>
     <link rel="stylesheet" href="css/style.css">
+
+    <title>AMS page</title>
+    <meta name="description" content="Test page for AMS Sowtware" />
+    <meta name="keywords" content="Test page" />
 </head>
 <body>
     <?include('includes/_header.php');?>
@@ -23,7 +27,7 @@
                         <img src="img/video.jpg" alt="Ускоритель компьютера" />
                     </div>
                     <div class="video__text">
-                        <a href="#" class="video__link">Ускоритель компьютера</a>
+                        <a href="https://youtu.be/GC_4lBFZl_Y" class="video__link" data-modal="video-modal">Ускоритель компьютера</a>
                         <p class="video__description">Видеообзор программы</p>
                     </div>
                 </div>
@@ -239,7 +243,23 @@
     </main>
 
     <?include('includes/_footer.php');?>
+
+    <!-- Modal for video -->
+    <div class="modal" id="video-modal" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-modal-close>
+            <div class="modal__container" role="dialog" aria-modal="true">
+                <div class="video-holder" data-width="900" data-height="506">
+                    <!-- If data-width contains value, video get the max width from it. Height will be calculated for ratio 16/9 -->
+                    <!-- If data-width and data-height contains value, video get the max width and calculate ratio for data-height value -->
+                    <!-- Else video get the max-width 800px and ratio 16/9 -->
+                </div>
+            </div>
+            <button type="button" class="modal__close" data-modal-close></button>
+        </div>
+    </div>
+
     <!-- Scripts -->
+    <script src="js/scripts.js"></script>
 </body>
 <!-- Developed by Artur Trifonov frontend-design.ru -->
 </html>

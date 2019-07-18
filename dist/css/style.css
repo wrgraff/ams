@@ -121,6 +121,19 @@ p {
   font-size: 1.0625rem;
   letter-spacing: 0.85px; }
 
+.video-holder {
+  position: relative;
+  display: block;
+  padding-bottom: 56.25%; }
+
+.video__media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none; }
+
 .content {
   margin-bottom: 4rem; }
 
@@ -293,3 +306,69 @@ p {
     width: 0.6875rem;
     height: 1rem;
     background-image: url(../img/ico/chevron_down.svg); }
+
+.modal {
+  display: none; }
+  .modal.is-open {
+    display: block; }
+
+.modal__overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 2.5rem;
+  background-color: rgba(31, 42, 51, 0.5);
+  z-index: 50; }
+
+.modal__container {
+  position: relative;
+  width: 100%;
+  max-width: 50rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1.5rem 2.5rem -1.5rem rgba(31, 42, 51, 0.5);
+  box-shadow: 0 1.5rem 2.5rem -1.5rem rgba(31, 42, 51, 0.5); }
+
+.modal__close {
+  position: absolute;
+  right: 2.5rem;
+  top: 2.5rem;
+  width: 4rem;
+  height: 4rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: background-color 250ms;
+  transition: background-color 250ms; }
+  .modal__close::before, .modal__close::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 2.5rem;
+    height: 0.25rem;
+    background-color: #fff;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+    -webkit-transition: background-color 250ms;
+    transition: background-color 250ms; }
+  .modal__close::after {
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg); }
+  .modal__close:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.15); }
+  .modal__close:hover::before, .modal__close:hover::after {
+    background-color: #f05634; }
