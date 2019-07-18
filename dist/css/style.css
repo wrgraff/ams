@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 1rem;
+  margin: 0 0 0.5rem;
   font-weight: normal; }
 
 h1 {
@@ -27,7 +27,7 @@ p {
   background-color: #fcfcfc; }
 
 .teaser {
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.625rem;
   padding-top: 3.5rem;
   color: #1f2a33;
   background-image: url(../img/teaser-bg.jpg);
@@ -143,11 +143,11 @@ p {
 .content__text {
   color: #616466;
   font-size: 1.1875rem;
-  line-height: 2rem; }
+  line-height: 1.8; }
 
 .promo-articles {
   text-align: left;
-  margin-bottom: 4rem; }
+  margin-bottom: 1.25rem; }
 
 .promo-articles__title {
   margin-bottom: 1.875rem; }
@@ -222,7 +222,7 @@ p {
   position: relative;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
-  padding: 0 4.375rem 3.125rem; }
+  padding: 0 4.375rem 2.875rem; }
   @media print, screen and (min-width: 62.0625em) {
     .articles__section {
       -ms-flex-preferred-size: 50%;
@@ -259,7 +259,7 @@ p {
   border-radius: 50%; }
 
 .articles__title {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   color: #364a59;
   font-family: "PF Din Display Pro Bold";
   font-size: 1.25rem;
@@ -267,7 +267,7 @@ p {
   text-transform: uppercase; }
 
 .articles__list {
-  margin-bottom: 3.125rem; }
+  margin-bottom: 2.875rem; }
 
 .articles__item {
   display: none;

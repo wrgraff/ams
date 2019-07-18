@@ -16,7 +16,7 @@
     @include breakpoint(large) {
         flex-basis: 50%;
     }
-    padding: rem-calc(0 70 50);
+    padding: rem-calc(0 70 46);
 
     @include breakpoint(large) {
         &:nth-child(2n - 1) {
@@ -30,6 +30,7 @@
                 background-color: #e4e8ed;
             }
         }
+        // Working not only with 5 sections
         &:nth-child(1) {
             &::after {
                 top: rem-calc(116);
@@ -57,7 +58,7 @@
 }
 
 .articles__title {
-    margin-bottom: $bit * 3;
+    margin-bottom: rem-calc(20);
     color: #364a59;
     font-family: "PF Din Display Pro Bold";
     font-size: rem-calc(20);
@@ -66,7 +67,7 @@
 }
 
 .articles__list {
-    margin-bottom: rem-calc(50);
+    margin-bottom: rem-calc(46);
 }
 
 .articles__item {

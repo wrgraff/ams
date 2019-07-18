@@ -1,5 +1,5 @@
 .teaser {
-    margin-bottom: $bit * 7;
+    margin-bottom: rem-calc(42);
     padding-top: rem-calc(56);
     color: color(black);
     background-image: url(../img/teaser-bg.jpg);
@@ -16,7 +16,4 @@
     font-size: rem-calc(20);
     max-width: rem-calc(740);
     margin: 0 auto;
-}
-.teaser__video {
-
 }
